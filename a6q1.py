@@ -76,3 +76,7 @@ def Conway(input_file, iterations=1, display=True):
         for row in currentState:
             file.write(''.join(row) + '\n')
     print(f"The updated state has been saved to {output_file}.")
+
+
+# Call the function with desired parameters
+Conway("input.txt", iterations=3, display=True)
